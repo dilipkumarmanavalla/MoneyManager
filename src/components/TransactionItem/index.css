@@ -1,0 +1,54 @@
+/* Write your CSS here */
+tr {
+  border-width: 1px;
+}
+.historypage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.history {
+  color: blue;
+  font-size: 25px;
+  font-weight: 600;
+}
+.heading {
+  color: rgb(29, 34, 39);
+  font-size: 18px;
+  font-weight: 500;
+}
+.history {
+  color: blue;
+  font-size: 25px;
+  font-weight: 600;
+  padding-left: 5%;
+}
+
+.historydiv {
+  padding: 5%;
+}
+.ul {
+  border-style: solid;
+  border: 2px;
+  border-color: black;
+}
+.li {
+  display: grid;
+  padding: 2px;
+  grid-template-columns: 22% 22% 22% 22%;
+  justify-content: space-between;
+}
+
+.lii {
+  display: grid;
+  grid-template-columns: 22% 22% 22% 22%;
+  justify-content: space-between;
+}
+.button {
+  background-color: transparent;
+  border-style: none;
+}
+.delete {
+  width: 25px;
+  height: 25px;
+}

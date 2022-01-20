@@ -1,0 +1,38 @@
+.itembox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+img {
+  height: 80px;
+  width: 80px;
+}
+.container {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 10px;
+  border-width: 2px;
+  width: 30.3%;
+  height: 39%;
+}
+.span {
+  font-size: 23px;
+  font-weight: 500;
+  color: rgb(29, 34, 39);
+}
+.balance {
+  background-color: #a2e937;
+  border-color: #84cc16;
+}
+.amount {
+  background-color: #5185d8;
+  border-color: #0b69ff;
+}
+.type {
+  background-color: #824ddd;
+  border-color: #7c3aed;
+}
